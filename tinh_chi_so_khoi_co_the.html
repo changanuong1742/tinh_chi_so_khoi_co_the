@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+    let can_nang = Number(prompt("Nhập Cân Nặng: "));
+    let chieu_cao = Number(prompt("Nhập Chiều Cao: "));
+    let bmi = can_nang / chieu_cao;
+
+
+        if (bmi < 18.5)
+            document.write("Underweight");
+        else if (bmi >= 18.5 && bmi < 25.0)
+            document.write("Normal");
+        else if (bmi >= 25 && bmi < 30.0)
+            document.write("Overweight");
+        else
+            document.write("Obese");
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
